@@ -26,7 +26,7 @@ spec:
             path: site.conf
       containers:
       - name: nginx
-        image: 62c4cc724bc2
+        image: tonyash/k8snginx
         volumeMounts:
         - name: config
           mountPath: /etc/nginx/conf.d
